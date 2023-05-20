@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --cor1:#11FF6A;
+    --cor2:#FCD219;
+    --cor3:#7577FF;
+    --cor4:#FF281F;
+    --cor5:#1417FF;
+}
+body{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor1));
+    text-align:center;
+}
+.caixa{
+margin:100px 8px;
+
+display:inline-block;
+text-align:center;
+
+padding:55px;
+
+background-color:black;
+border-radius:20px;
+
+}
+#hr, #min, #sec{
+    font:7em arial;
+    color:white;
+    vertical-align: 100px;
+}
+.mls{
+    font: 2em arial;
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    width: 47px;
+    border-radius: 10px;
+    float: right;
+    margin-top: -79px;
+    margin-right: 20px;
+
+}
